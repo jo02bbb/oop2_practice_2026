@@ -1,7 +1,7 @@
-import modules.SeyHello as App
+import modules.SayHello as App
 
 def run():
-    app = App.SeyHello("Git")
+    app = App.SayHello("Git")
     app.say()
 
 if __name__ == '__main__':
